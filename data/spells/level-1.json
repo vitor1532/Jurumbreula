@@ -1,0 +1,821 @@
+[
+  {
+    "name": "Alarme (Alarm) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Alarme (Alarm).</p>"
+      },
+      "level": 1,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Armadura de Agathys (Armor of Agathys) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Armadura de Agathys (Armor of Agathys).</p>"
+      },
+      "level": 1,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Armadura Arcana (Mage Armor) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Armadura Arcana (Mage Armor).</p>"
+      },
+      "level": 1,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Ataque Compulsivo (Compelled Duel) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Ataque Compulsivo (Compelled Duel).</p>"
+      },
+      "level": 1,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Bênção (Bless) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Bênção (Bless).</p>"
+      },
+      "level": 1,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Bruxaria (Hex) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Bruxaria (Hex).</p>"
+      },
+      "level": 1,
+      "school": "nec",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Caminho Nebuloso (Fog Cloud) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Caminho Nebuloso (Fog Cloud).</p>"
+      },
+      "level": 1,
+      "school": "con",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Comando (Command) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Comando (Command).</p>"
+      },
+      "level": 1,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Compreender Idiomas (Comprehend Languages) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Compreender Idiomas (Comprehend Languages).</p>"
+      },
+      "level": 1,
+      "school": "div",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Curar Ferimentos (Cure Wounds) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Curar Ferimentos (Cure Wounds).</p>"
+      },
+      "level": 1,
+      "school": "nec",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Detectar Magia (Detect Magic) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Detectar Magia (Detect Magic).</p>"
+      },
+      "level": 1,
+      "school": "div",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Detectar Veneno e Doença (Detect Poison and Disease) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Detectar Veneno e Doença (Detect Poison and Disease).</p>"
+      },
+      "level": 1,
+      "school": "div",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Discar Mágico (Searing Smite) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Discar Mágico (Searing Smite).</p>"
+      },
+      "level": 1,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Escudo Mágico (Shield) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Escudo Mágico (Shield).</p>"
+      },
+      "level": 1,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Escudo de Fé (Shield of Faith) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Escudo de Fé (Shield of Faith).</p>"
+      },
+      "level": 1,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Fogo das Fadas (Faerie Fire) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Fogo das Fadas (Faerie Fire).</p>"
+      },
+      "level": 1,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Graça Felina (Feather Fall) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Graça Felina (Feather Fall).</p>"
+      },
+      "level": 1,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Gritaria Estridente (Dissonant Whispers) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Gritaria Estridente (Dissonant Whispers).</p>"
+      },
+      "level": 1,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Heroísmo (Heroism) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Heroísmo (Heroism).</p>"
+      },
+      "level": 1,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Identificação (Identify) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Identificação (Identify).</p>"
+      },
+      "level": 1,
+      "school": "div",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Imagem Silenciosa (Silent Image) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Imagem Silenciosa (Silent Image).</p>"
+      },
+      "level": 1,
+      "school": "ill",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Mãos Flamejantes (Burning Hands) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Mãos Flamejantes (Burning Hands).</p>"
+      },
+      "level": 1,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Marca do Caçador (Hunter's Mark) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Marca do Caçador (Hunter's Mark).</p>"
+      },
+      "level": 1,
+      "school": "div",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Míssil Mágico (Magic Missile) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Míssil Mágico (Magic Missile).</p>"
+      },
+      "level": 1,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Névoa Obscurecedora (Entangle) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Névoa Obscurecedora (Entangle).</p>"
+      },
+      "level": 1,
+      "school": "con",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Onda Trovante (Thunderwave) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Onda Trovante (Thunderwave).</p>"
+      },
+      "level": 1,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Palavra Curativa (Healing Word) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Palavra Curativa (Healing Word).</p>"
+      },
+      "level": 1,
+      "school": "nec",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Passos Longos (Longstrider) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Passos Longos (Longstrider).</p>"
+      },
+      "level": 1,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Perdição (Bane) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Perdição (Bane).</p>"
+      },
+      "level": 1,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Proteção contra o Bem e Mal (Protection from Evil and Good) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Proteção contra o Bem e Mal (Protection from Evil and Good).</p>"
+      },
+      "level": 1,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Pequeno Refúgio (Sanctuary) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Pequeno Refúgio (Sanctuary).</p>"
+      },
+      "level": 1,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Riso Histérico de Tasha (Tasha's Hideous Laughter) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Riso Histérico de Tasha (Tasha's Hideous Laughter).</p>"
+      },
+      "level": 1,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Santuário (Sanctuary) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Santuário (Sanctuary).</p>"
+      },
+      "level": 1,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Salto (Jump) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Salto (Jump).</p>"
+      },
+      "level": 1,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Sopro de Gelo (Thunderous Smite) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Sopro de Gelo (Thunderous Smite).</p>"
+      },
+      "level": 1,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Sono (Sleep) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Sono (Sleep).</p>"
+      },
+      "level": 1,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Sussurros Discordantes (Dissonant Whispers) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Sussurros Discordantes (Dissonant Whispers).</p>"
+      },
+      "level": 1,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Suspiro Elemental (Chromatic Orb) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Suspiro Elemental (Chromatic Orb).</p>"
+      },
+      "level": 1,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Voz Encantadora (Charm Person) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Voz Encantadora (Charm Person).</p>"
+      },
+      "level": 1,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  }
+]

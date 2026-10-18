@@ -1,0 +1,569 @@
+[
+  {
+    "name": "Ataque Certeiro (True Strike) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Ataque Certeiro (True Strike).</p>"
+      },
+      "level": 0,
+      "school": "div",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Chama Sagrada (Sacred Flame) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Chama Sagrada (Sacred Flame).</p>"
+      },
+      "level": 0,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Chicote de Espinhos (Thorn Whip) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Chicote de Espinhos (Thorn Whip).</p>"
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Consertar (Mending) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Consertar (Mending).</p>"
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Espirro Ácido (Acid Splash) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Espirro Ácido (Acid Splash).</p>"
+      },
+      "level": 0,
+      "school": "con",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Garra Elemental (Elementalism) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Garra Elemental (Elementalism).</p>"
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Gostar de Música (Guidance) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Gostar de Música (Guidance).</p>"
+      },
+      "level": 0,
+      "school": "div",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Ilusão Menor (Minor Illusion) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Ilusão Menor (Minor Illusion).</p>"
+      },
+      "level": 0,
+      "school": "ill",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Luz (Light) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Luz (Light).</p>"
+      },
+      "level": 0,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Mãos Mágicas (Mage Hand) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Mãos Mágicas (Mage Hand).</p>"
+      },
+      "level": 0,
+      "school": "con",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Mensagem (Message) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Mensagem (Message).</p>"
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Moldar Terra (Mold Earth) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Moldar Terra (Mold Earth).</p>"
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Palavra de Resplendor (Word of Radiance) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Palavra de Resplendor (Word of Radiance).</p>"
+      },
+      "level": 0,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Prestidigitação (Prestidigitation) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Prestidigitação (Prestidigitation).</p>"
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Projeção Mágica (Dancing Lights) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Projeção Mágica (Dancing Lights).</p>"
+      },
+      "level": 0,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Proteção contra Lâminas (Blade Ward) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Proteção contra Lâminas (Blade Ward).</p>"
+      },
+      "level": 0,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Raio de Fogo (Fire Bolt) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Raio de Fogo (Fire Bolt).</p>"
+      },
+      "level": 0,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Raio de Gelo (Ray of Frost) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Raio de Gelo (Ray of Frost).</p>"
+      },
+      "level": 0,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Resistência (Resistance) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Resistência (Resistance).</p>"
+      },
+      "level": 0,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Serviço Invisível (Spare the Dying) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Serviço Invisível (Spare the Dying).</p>"
+      },
+      "level": 0,
+      "school": "nec",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Shocking Grasp (Toque Chocante) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Shocking Grasp (Toque Chocante).</p>"
+      },
+      "level": 0,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Sorriso Zombeteiro (Vicious Mockery) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Sorriso Zombeteiro (Vicious Mockery).</p>"
+      },
+      "level": 0,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Taumaturgia (Thaumaturgy) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Taumaturgia (Thaumaturgy).</p>"
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Tiro Mágico (Eldritch Blast) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Tiro Mágico (Eldritch Blast).</p>"
+      },
+      "level": 0,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Toque Necrótico (Chill Touch) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Toque Necrótico (Chill Touch).</p>"
+      },
+      "level": 0,
+      "school": "nec",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Truque de Cordeiro (Druidcraft) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Truque de Cordeiro (Druidcraft).</p>"
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Vetor de Veneno (Poison Spray) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Vetor de Veneno (Poison Spray).</p>"
+      },
+      "level": 0,
+      "school": "nec",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  }
+]

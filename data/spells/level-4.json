@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Âncora Dimensional (Dimension Door) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Âncora Dimensional (Dimension Door).</p>"
+      },
+      "level": 4,
+      "school": "con",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Assassino Fantasmagórico (Phantasmal Killer) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Assassino Fantasmagórico (Phantasmal Killer).</p>"
+      },
+      "level": 4,
+      "school": "ill",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Banishment (Banimento) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Banishment (Banimento).</p>"
+      },
+      "level": 4,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Cão Fiel de Mordenkainen (Faithful Hound) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Cão Fiel de Mordenkainen (Faithful Hound).</p>"
+      },
+      "level": 4,
+      "school": "con",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Compulsão (Compulsion) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Compulsão (Compulsion).</p>"
+      },
+      "level": 4,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Confusão (Confusion) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Confusão (Confusion).</p>"
+      },
+      "level": 4,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Controlar Água (Control Water) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Controlar Água (Control Water).</p>"
+      },
+      "level": 4,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Estatua de Pedra (Stoneskin) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Estatua de Pedra (Stoneskin).</p>"
+      },
+      "level": 4,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Esfera Elástica de Otiluke (Resilient Sphere) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Esfera Elástica de Otiluke (Resilient Sphere).</p>"
+      },
+      "level": 4,
+      "school": "evc",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Invisibilidade Maior (Greater Invisibility) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Invisibilidade Maior (Greater Invisibility).</p>"
+      },
+      "level": 4,
+      "school": "ill",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Localizar Criatura (Locate Creature) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Localizar Criatura (Locate Creature).</p>"
+      },
+      "level": 4,
+      "school": "div",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Muralha de Fogo (Wall of Fire) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Muralha de Fogo (Wall of Fire).</p>"
+      },
+      "level": 4,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Metamorfose (Polymorph) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Metamorfose (Polymorph).</p>"
+      },
+      "level": 4,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Moldar Rochas (Stone Shape) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Moldar Rochas (Stone Shape).</p>"
+      },
+      "level": 4,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Santuário Privado (Private Sanctum) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Santuário Privado (Private Sanctum).</p>"
+      },
+      "level": 4,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Tempestade de Gelo (Ice Storm) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Tempestade de Gelo (Ice Storm).</p>"
+      },
+      "level": 4,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Terreno Alucinatório (Hallucinatory Terrain) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Terreno Alucinatório (Hallucinatory Terrain).</p>"
+      },
+      "level": 4,
+      "school": "ill",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Tentáculos Negros de Evard (Black Tentacles) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Tentáculos Negros de Evard (Black Tentacles).</p>"
+      },
+      "level": 4,
+      "school": "con",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  }
+]

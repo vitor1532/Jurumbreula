@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Antipatia/Simpatia (Antipathy/Sympathy) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Antipatia/Simpatia (Antipathy/Sympathy).</p>"
+      },
+      "level": 8,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Campo Antimagia (Antimagic Field) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Campo Antimagia (Antimagic Field).</p>"
+      },
+      "level": 8,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Clonar (Clone) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Clonar (Clone).</p>"
+      },
+      "level": 8,
+      "school": "nec",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Dominar Monstro (Dominate Monster) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Dominar Monstro (Dominate Monster).</p>"
+      },
+      "level": 8,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Explosão Solar (Sunburst) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Explosão Solar (Sunburst).</p>"
+      },
+      "level": 8,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Forma Dragão (Illusory Dragon) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Forma Dragão (Illusory Dragon).</p>"
+      },
+      "level": 8,
+      "school": "ill",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Labirinto (Maze) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Labirinto (Maze).</p>"
+      },
+      "level": 8,
+      "school": "con",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Mente Embrutecida (Feeblemind) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Mente Embrutecida (Feeblemind).</p>"
+      },
+      "level": 8,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Palavra de Power Stun (Power Word Stun) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Palavra de Power Stun (Power Word Stun).</p>"
+      },
+      "level": 8,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Terremoto (Earthquake) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Terremoto (Earthquake).</p>"
+      },
+      "level": 8,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Tsunami (Tsunami) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Tsunami (Tsunami).</p>"
+      },
+      "level": 8,
+      "school": "con",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  }
+]

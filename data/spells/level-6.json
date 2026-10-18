@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Ataque de Vento (Investiture of Wind) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Ataque de Vento (Investiture of Wind).</p>"
+      },
+      "level": 6,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Barreira de Lâminas (Blade Barrier) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Barreira de Lâminas (Blade Barrier).</p>"
+      },
+      "level": 6,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Caminhar nas Sombras (Find the Path) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Caminhar nas Sombras (Find the Path).</p>"
+      },
+      "level": 6,
+      "school": "div",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Carne para Pedra (Flesh to Stone) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Carne para Pedra (Flesh to Stone).</p>"
+      },
+      "level": 6,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Corrente de Relâmpagos (Chain Lightning) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Corrente de Relâmpagos (Chain Lightning).</p>"
+      },
+      "level": 6,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Cura Completa (Heal) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Cura Completa (Heal).</p>"
+      },
+      "level": 6,
+      "school": "nec",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Desintegrar (Disintegrate) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Desintegrar (Disintegrate).</p>"
+      },
+      "level": 6,
+      "school": "trs",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Esfera Congelante de Otiluke (Freezing Sphere) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Esfera Congelante de Otiluke (Freezing Sphere).</p>"
+      },
+      "level": 6,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Globo de Invulnerabilidade (Globe of Invulnerability) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Globo de Invulnerabilidade (Globe of Invulnerability).</p>"
+      },
+      "level": 6,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Ilusão Programada (Programmed Illusion) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Ilusão Programada (Programmed Illusion).</p>"
+      },
+      "level": 6,
+      "school": "ill",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Invocação de Contingência (Contingency) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Invocação de Contingência (Contingency).</p>"
+      },
+      "level": 6,
+      "school": "evc",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Muralha de Gelo (Wall of Ice) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Muralha de Gelo (Wall of Ice).</p>"
+      },
+      "level": 6,
+      "school": "evo",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Portal de Plano (Planar Ally) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Portal de Plano (Planar Ally).</p>"
+      },
+      "level": 6,
+      "school": "con",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Proibição (Forbiddance) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Proibição (Forbiddance).</p>"
+      },
+      "level": 6,
+      "school": "abj",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Sugestão em Massa (Mass Suggestion) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Sugestão em Massa (Mass Suggestion).</p>"
+      },
+      "level": 6,
+      "school": "enm",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  },
+  {
+    "name": "Visão da Verdade (True Seeing) (2024)",
+    "type": "spell",
+    "img": "icons/svg/spell-phone.svg",
+    "system": {
+      "description": {
+        "value": "<p>Magia oficial do D&D 2024 (PHB) - Visão da Verdade (True Seeing).</p>"
+      },
+      "level": 6,
+      "school": "div",
+      "properties": [
+        "v",
+        "s"
+      ],
+      "range": {
+        "value": 60,
+        "units": "ft"
+      },
+      "actionType": "util"
+    }
+  }
+]

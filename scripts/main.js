@@ -1,4 +1,4 @@
-// Função auxiliar para higienizar os _ids do item e de seus advancements
+// Função para higienizar IDs do Foundry VTT (garante 16 caracteres alfanuméricos)
 function fixItemIds(item) {
     const cleanItem = JSON.parse(JSON.stringify(item));
 
@@ -21,53 +21,47 @@ function fixItemIds(item) {
 Hooks.once('ready', async () => {
     if (!game.user.isGM) return;
 
-    const classPack = game.packs.get("Jurumbreula.classes-55e");
-    const subclassPack = game.packs.get("Jurumbreula.subclasses-55e");
+    const classPack = game.packs.get("Jurumbleura.classes-55e");
+    const subclassPack = game.packs.get("Jurumbleura.subclasses-55e");
+    const spellPack = game.packs.get("Jurumbleura.spells-55e");
 
-    if (!classPack || !subclassPack) return;
+    if (!classPack || !subclassPack || !spellPack) return;
 
+    // --- 1. IMPORTAÇÃO DAS CLASSES E SUBCLASSES ---
     const classIndex = await classPack.getIndex();
     if (classIndex.size === 0) {
-        ui.notifications.info("Jurumbreula | Populando compêndios do módulo pela primeira vez...");
+        ui.notifications.info("Jurumbleura | Populando compêndios de Classes e Subclasses...");
 
         try {
-            const response = await fetch("modules/Jurumbreula/data/classes-and-subclasses-2024.json");
+            const response = await fetch("modules/Jurumbleura/data/classes-and-subclasses-2024.json");
             const itemsData = await response.json();
 
-            // Desbloqueia os compêndios para escrita
             await classPack.configure({ locked: false });
             await subclassPack.configure({ locked: false });
 
-            // 1. Prepara e CRIA PRIMEIRO AS SUBCLASSES
+            // Importa Subclasses
             const rawSubclasses = itemsData.filter(item => item.type === "subclass").map(fixItemIds);
-            const createdSubclasses = await Item.createDocuments(rawSubclasses, { pack: "Jurumbreula.subclasses-55e" });
+            const createdSubclasses = await Item.createDocuments(rawSubclasses, { pack: "Jurumbleura.subclasses-55e" });
 
-            // Mapeia cada classe (classIdentifier) para um array de UUIDs das suas subclasses
-            // Exemplo: { "guerreiro-2024": ["Compendium.Jurumbreula.subclasses-55e.Item...", ...] }
+            // Mapeia os UUIDs das subclasses por classIdentifier
             const classToSubclassUuids = {};
-            
             createdSubclasses.forEach(subcls => {
                 const classId = subcls.system?.classIdentifier;
                 if (classId) {
-                    if (!classToSubclassUuids[classId]) {
-                        classToSubclassUuids[classId] = [];
-                    }
+                    if (!classToSubclassUuids[classId]) classToSubclassUuids[classId] = [];
                     classToSubclassUuids[classId].push(subcls.uuid);
                 }
             });
 
-            // 2. Prepara as CLASSES e vincula APENAS as subclasses pertencentes a ela
+            // Importa Classes com pool de subclasses atualizado
             const rawClasses = itemsData.filter(item => item.type === "class").map(fixItemIds);
-
             const classes = rawClasses.map(cls => {
                 const classIdentifier = cls.system?.identifier;
-                // Obtém apenas os UUIDs das subclasses pertencentes a este identifier específico
                 const matchingSubclassUuids = classToSubclassUuids[classIdentifier] || [];
 
                 if (cls.system && Array.isArray(cls.system.advancement)) {
                     cls.system.advancement.forEach(adv => {
                         if (adv.type === "ItemChoice" && adv.configuration) {
-                            // Atribui estritamente a lista de UUIDs correspondentes a esta classe
                             adv.configuration.pool = matchingSubclassUuids;
                         }
                     });
@@ -75,16 +69,60 @@ Hooks.once('ready', async () => {
                 return cls;
             });
 
-            // 3. Cria as CLASSES com os UUIDs perfeitamente filtrados e validados
-            await Item.createDocuments(classes, { pack: "Jurumbreula.classes-55e" });
+            await Item.createDocuments(classes, { pack: "Jurumbleura.classes-55e" });
 
-            // Bloqueia novamente os compêndios
             await classPack.configure({ locked: true });
             await subclassPack.configure({ locked: true });
 
-            ui.notifications.info("Jurumbreula | Compêndios de Classes e Subclasses criados com sucesso!");
+            ui.notifications.info("Jurumbleura | Compêndios de Classes criados com sucesso!");
         } catch (error) {
-            console.error("Jurumbreula | Erro ao carregar o arquivo JSON:", error);
+            console.error("Jurumbleura | Erro ao carregar Classes/Subclasses:", error);
+        }
+    }
+
+    // --- 2. IMPORTAÇÃO DAS MAGIAS (MULTIPLOS ARQUIVOS JSON) ---
+    const spellIndex = await spellPack.getIndex();
+    if (spellIndex.size === 0) {
+        ui.notifications.info("Jurumbleura | Populando compêndio de Magias por Nível (PHB 2024)...");
+
+        // Lista de todos os arquivos de magias
+        const spellFiles = [
+            "cantrips.json",
+            "level-1.json",
+            "level-2.json",
+            "level-3.json",
+            "level-4.json",
+            "level-5.json",
+            "level-6.json",
+            "level-7.json",
+            "level-8.json",
+            "level-9.json"
+        ];
+
+        try {
+            await spellPack.configure({ locked: false });
+
+            let allSpellsData = [];
+
+            // Lê cada arquivo individualmente e agrupa no array principal
+            for (const file of spellFiles) {
+                const response = await fetch(`modules/Jurumbleura/data/spells/${file}`);
+                if (response.ok) {
+                    const spells = await response.json();
+                    allSpellsData = allSpellsData.concat(spells);
+                } else {
+                    console.warn(`Jurumbleura | Não foi possível carregar modules/Jurumbleura/data/spells/${file}`);
+                }
+            }
+
+            const cleanSpells = allSpellsData.map(fixItemIds);
+            await Item.createDocuments(cleanSpells, { pack: "Jurumbleura.spells-55e" });
+
+            await spellPack.configure({ locked: true });
+
+            ui.notifications.info(`Jurumbleura | Compêndio com ${cleanSpells.length} Magias criado com sucesso!`);
+        } catch (error) {
+            console.error("Jurumbleura | Erro ao carregar arquivos de Magias:", error);
         }
     }
 });
