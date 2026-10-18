@@ -1,0 +1,1160 @@
+[
+{
+"_id": "cls2024barbarian01",
+"name": "Bárbaro",
+"type": "class",
+"img": "icons/skills/melee/weapons-crossed-axes-red.webp",
+"system": {
+"description": {
+"value": "Um guerreiro feroz que pode entrar em um fúria de batalha."
+},
+"identifier": "barbarian",
+"hitDice": "d12",
+"hpConfig": { "average": 7 },
+"spellcasting": { "progression": "none" },
+"advancement": [
+{
+"_id": "advHPBarbarian001",
+"type": "HitPoints",
+"configuration": {}
+},
+{
+"_id": "advProfBarbarian01",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["armor:lgt", "armor:med", "armor:shl", "weapon:simp", "weapon:mar"]
+}
+},
+{
+"_id": "advSavesBarbarian1",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:str", "saves:con"]
+}
+},
+{
+"_id": "advSubclassBarbarian",
+"type": "ItemChoice",
+"level": 3,
+"title": "Caminho Primal (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024berserker",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024wildheart",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024worldtree",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024zealot"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024bard0000001",
+"name": "Bardo",
+"type": "class",
+"img": "icons/skills/trades/music-notes-sound-blue.webp",
+"system": {
+"description": {
+"value": "Um mestre da magia inspiradora que canaliza a música da criação."
+},
+"identifier": "bard",
+"hitDice": "d8",
+"hpConfig": { "average": 5 },
+"spellcasting": { "progression": "full", "ability": "cha" },
+"advancement": [
+{ "_id": "advHPBard00000001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfBard0000001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["armor:lgt", "weapon:simp"]
+}
+},
+{
+"_id": "advSavesBard000001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:dex", "saves:cha"]
+}
+},
+{
+"_id": "advSubclassBard001",
+"type": "ItemChoice",
+"level": 3,
+"title": "Colégio Bardico (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024dance000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024glamour00",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024lore00000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024valor0000"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024cleric00001",
+"name": "Clérigo",
+"type": "class",
+"img": "icons/svg/sun.svg",
+"system": {
+"description": {
+"value": "Um campeão divino que conjura magia sagrada em serviço de um poder superior."
+},
+"identifier": "cleric",
+"hitDice": "d8",
+"hpConfig": { "average": 5 },
+"spellcasting": { "progression": "full", "ability": "wis" },
+"advancement": [
+{ "_id": "advHPCleric000001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfCleric0001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["armor:lgt", "armor:med", "armor:shl", "weapon:simp"]
+}
+},
+{
+"_id": "advSavesCleric001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:wis", "saves:cha"]
+}
+},
+{
+"_id": "advSubclassCleric1",
+"type": "ItemChoice",
+"level": 3,
+"title": "Domínio Divino (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024life00000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024light0000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024tempest00",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024trickery0"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024druid000001",
+"name": "Druida",
+"type": "class",
+"img": "icons/svg/oak.svg",
+"system": {
+"description": {
+"value": "Um sacerdote da Antiga Fé, que assume formas de bestas e conjura magia da natureza."
+},
+"identifier": "druid",
+"hitDice": "d8",
+"hpConfig": { "average": 5 },
+"spellcasting": { "progression": "full", "ability": "wis" },
+"advancement": [
+{ "_id": "advHPDruid0000001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfDruid00001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["armor:lgt", "armor:shl", "weapon:simp"]
+}
+},
+{
+"_id": "advSavesDruid0001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:int", "saves:wis"]
+}
+},
+{
+"_id": "advSubclassDruid01",
+"type": "ItemChoice",
+"level": 3,
+"title": "Círculo Druídico (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024land00000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024moon00000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024sea000000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024stars0000"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024fighter0001",
+"name": "Guerreiro",
+"type": "class",
+"img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+"system": {
+"description": {
+"value": "Mestre do combate marcial, hábil com uma ampla variedade de armas e armaduras."
+},
+"identifier": "fighter",
+"hitDice": "d10",
+"hpConfig": { "average": 6 },
+"spellcasting": { "progression": "none" },
+"advancement": [
+{ "_id": "advHPFighter00001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfFighter001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["armor:lgt", "armor:med", "armor:hvy", "armor:shl", "weapon:simp", "weapon:mar"]
+}
+},
+{
+"_id": "advSavesFighter01",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:str", "saves:con"]
+}
+},
+{
+"_id": "advSubclassFighter",
+"type": "ItemChoice",
+"level": 3,
+"title": "Arquétipo Marcial (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024battlemast",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024champion0",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024eldritchk",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024psiwarrio"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024monk0000001",
+"name": "Monge",
+"type": "class",
+"img": "icons/skills/melee/unarmed-punch-fist.webp",
+"system": {
+"description": {
+"value": "Um mestre das artes marciais que aproveita o poder do seu próprio corpo e espírito."
+},
+"identifier": "monk",
+"hitDice": "d8",
+"hpConfig": { "average": 5 },
+"spellcasting": { "progression": "none" },
+"advancement": [
+{ "_id": "advHPMonk00000001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfMonk000001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["weapon:simp", "weapon:mar:shortsword"]
+}
+},
+{
+"_id": "advSavesMonk00001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:str", "saves:dex"]
+}
+},
+{
+"_id": "advSubclassMonk001",
+"type": "ItemChoice",
+"level": 3,
+"title": "Tradição Monástica (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024elements0",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024mercy0000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024openhand0",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024shadow000"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024paladin0001",
+"name": "Paladino",
+"type": "class",
+"img": "icons/skills/melee/shield-block-gray.webp",
+"system": {
+"description": {
+"value": "Um guerreiro sagrado vinculado a um juramento solene."
+},
+"identifier": "paladin",
+"hitDice": "d10",
+"hpConfig": { "average": 6 },
+"spellcasting": { "progression": "half", "ability": "cha" },
+"advancement": [
+{ "_id": "advHPPaladin00001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfPaladin001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["armor:lgt", "armor:med", "armor:hvy", "armor:shl", "weapon:simp", "weapon:mar"]
+}
+},
+{
+"_id": "advSavesPaladin01",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:wis", "saves:cha"]
+}
+},
+{
+"_id": "advSubclassPaladin",
+"type": "ItemChoice",
+"level": 3,
+"title": "Juramento Sagrado (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024ancients0",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024devotion0",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024glory0000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024vengeance"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024ranger00001",
+"name": "Patrulheiro",
+"type": "class",
+"img": "icons/skills/ranged/target-bullseye-arrow-green.webp",
+"system": {
+"description": {
+"value": "Um combatente selvagem focado na caça e na sobrevivência."
+},
+"identifier": "ranger",
+"hitDice": "d10",
+"hpConfig": { "average": 6 },
+"spellcasting": { "progression": "half", "ability": "wis" },
+"advancement": [
+{ "_id": "advHPRanger000001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfRanger0001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["armor:lgt", "armor:med", "armor:shl", "weapon:simp", "weapon:mar"]
+}
+},
+{
+"_id": "advSavesRanger001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:str", "saves:dex"]
+}
+},
+{
+"_id": "advSubclassRanger1",
+"type": "ItemChoice",
+"level": 3,
+"title": "Arquétipo de Patrulheiro (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024beastmast",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024feywander",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024gloomstal",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024hunter000"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024rogue000001",
+"name": "Ladino",
+"type": "class",
+"img": "icons/skills/melee/dagger-thrust-shadow-purple.webp",
+"system": {
+"description": {
+"value": "Um trapaceiro que se destaca em furtividade, precisão e exploração de fraquezas."
+},
+"identifier": "rogue",
+"hitDice": "d8",
+"hpConfig": { "average": 5 },
+"spellcasting": { "progression": "none" },
+"advancement": [
+{ "_id": "advHPRogue0000001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfRogue00001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["armor:lgt", "weapon:simp", "weapon:mar:rapier", "weapon:mar:shortsword"]
+}
+},
+{
+"_id": "advSavesRogue0001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:dex", "saves:int"]
+}
+},
+{
+"_id": "advSubclassRogue01",
+"type": "ItemChoice",
+"level": 3,
+"title": "Arquétipo de Ladino (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024arcanetri",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024assassin0",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024soulknife",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024thief0000"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024sorcerer001",
+"name": "Feiticeiro",
+"type": "class",
+"img": "icons/svg/lightning.svg",
+"system": {
+"description": {
+"value": "Um conjurador que possui magia inata concedida por sua linhagem ou dom celestial."
+},
+"identifier": "sorcerer",
+"hitDice": "d6",
+"hpConfig": { "average": 4 },
+"spellcasting": { "progression": "full", "ability": "cha" },
+"advancement": [
+{ "_id": "advHPSorcerer0001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfSorcerer01",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["weapon:simp"]
+}
+},
+{
+"_id": "advSavesSorcerer1",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:con", "saves:cha"]
+}
+},
+{
+"_id": "advSubclassSorcerer",
+"type": "ItemChoice",
+"level": 3,
+"title": "Origem Feiticeira (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024aberrant0",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024clockwork",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024draconic0",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024wildmagic"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024warlock0001",
+"name": "Bruxo",
+"type": "class",
+"img": "icons/svg/skull.svg",
+"system": {
+"description": {
+"value": "Um praticante de magia derivada de um pacto com uma entidade mística."
+},
+"identifier": "warlock",
+"hitDice": "d8",
+"hpConfig": { "average": 5 },
+"spellcasting": { "progression": "pact", "ability": "cha" },
+"advancement": [
+{ "_id": "advHPWarlock00001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfWarlock001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["armor:lgt", "weapon:simp"]
+}
+},
+{
+"_id": "advSavesWarlock01",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:wis", "saves:cha"]
+}
+},
+{
+"_id": "advSubclassWarlock",
+"type": "ItemChoice",
+"level": 3,
+"title": "Patrono do Pacto (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024archfey00",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024celestial",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024fiend0000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024greatold1"
+]
+}
+}
+]
+}
+},
+{
+"_id": "cls2024wizard00001",
+"name": "Mago",
+"type": "class",
+"img": "icons/skills/spells/academic-study-book-yellow.webp",
+"system": {
+"description": {
+"value": "Um estudioso da magia capaz de manipular as forças do multiverso através do estudo de tomos."
+},
+"identifier": "wizard",
+"hitDice": "d6",
+"hpConfig": { "average": 4 },
+"spellcasting": { "progression": "full", "ability": "int" },
+"advancement": [
+{ "_id": "advHPWizard000001", "type": "HitPoints", "configuration": {} },
+{
+"_id": "advProfWizard0001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["weapon:simp"]
+}
+},
+{
+"_id": "advSavesWizard001",
+"type": "Trait",
+"level": 1,
+"configuration": {
+"mode": "default",
+"grants": ["saves:int", "saves:wis"]
+}
+},
+{
+"_id": "advSubclassWizard1",
+"type": "ItemChoice",
+"level": 3,
+"title": "Tradição Arcana (Subclasse)",
+"configuration": {
+"type": "subclass",
+"pool": [
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024abjurer00",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024diviner00",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024evoker000",
+"Compendium.dnd-55e-content.subclasses-55e.Item.subcls2024illusioni"
+]
+}
+}
+]
+}
+},
+
+{
+"_id": "subcls2024berserker",
+"name": "Caminho do Furioso",
+"type": "subclass",
+"img": "icons/skills/melee/weapons-crossed-axes-red.webp",
+"system": {
+"identifier": "berserker",
+"classIdentifier": "barbarian",
+"description": { "value": "Subclasse do Bárbaro focada em fúria irrestrita e ataques adicionais." }
+}
+},
+{
+"_id": "subcls2024wildheart",
+"name": "Caminho do Coração Selvagem",
+"type": "subclass",
+"img": "icons/skills/melee/weapons-crossed-axes-red.webp",
+"system": {
+"identifier": "wild-heart",
+"classIdentifier": "barbarian",
+"description": { "value": "Subclasse do Bárbaro em harmonia com os espíritos dos animais." }
+}
+},
+{
+"_id": "subcls2024worldtree",
+"name": "Caminho da Árvore do Mundo",
+"type": "subclass",
+"img": "icons/skills/melee/weapons-crossed-axes-red.webp",
+"system": {
+"identifier": "world-tree",
+"classIdentifier": "barbarian",
+"description": { "value": "Subclasse do Bárbaro conectada à Yggdrasil, concedendo vitalidade e alcance vital." }
+}
+},
+{
+"_id": "subcls2024zealot",
+"name": "Caminho do Fanático",
+"type": "subclass",
+"img": "icons/skills/melee/weapons-crossed-axes-red.webp",
+"system": {
+"identifier": "zealot",
+"classIdentifier": "barbarian",
+"description": { "value": "Subclasse do Bárbaro alimentada pelo poder de uma divindade." }
+}
+},
+
+{
+"_id": "subcls2024dance000",
+"name": "Colégio da Dança",
+"type": "subclass",
+"img": "icons/skills/trades/music-notes-sound-blue.webp",
+"system": {
+"identifier": "college-of-dance",
+"classIdentifier": "bard",
+"description": { "value": "Subclasse do Bardo que expressa a magia da criação através do movimento sem armadura." }
+}
+},
+{
+"_id": "subcls2024glamour00",
+"name": "Colégio do Glamour",
+"type": "subclass",
+"img": "icons/skills/trades/music-notes-sound-blue.webp",
+"system": {
+"identifier": "college-of-glamour",
+"classIdentifier": "bard",
+"description": { "value": "Subclasse do Bardo que canaliza a magia sedutora e majestosa da Agrestia das Fadas." }
+}
+},
+{
+"_id": "subcls2024lore00000",
+"name": "Colégio do Conhecimento",
+"type": "subclass",
+"img": "icons/skills/trades/music-notes-sound-blue.webp",
+"system": {
+"identifier": "college-of-lore",
+"classIdentifier": "bard",
+"description": { "value": "Subclasse do Bardo focada na busca por segredos e domínio de diversas perícias." }
+}
+},
+{
+"_id": "subcls2024valor0000",
+"name": "Colégio do Valor",
+"type": "subclass",
+"img": "icons/skills/trades/music-notes-sound-blue.webp",
+"system": {
+"identifier": "college-of-valor",
+"classIdentifier": "bard",
+"description": { "value": "Subclasse do Bardo que inspira grandes feitos no campo de batalha." }
+}
+},
+
+{
+"_id": "subcls2024life00000",
+"name": "Domínio da Vida",
+"type": "subclass",
+"img": "icons/svg/sun.svg",
+"system": {
+"identifier": "life-domain",
+"classIdentifier": "cleric",
+"description": { "value": "Subclasse do Clérigo focada na preservação da vida e canalização de curas intensas." }
+}
+},
+{
+"_id": "subcls2024light0000",
+"name": "Domínio da Luz",
+"type": "subclass",
+"img": "icons/svg/sun.svg",
+"system": {
+"identifier": "light-domain",
+"classIdentifier": "cleric",
+"description": { "value": "Subclasse do Clérigo focada no fogo divinal, verdade e dissipação de sombras." }
+}
+},
+{
+"_id": "subcls2024tempest00",
+"name": "Domínio da Tempestade",
+"type": "subclass",
+"img": "icons/svg/sun.svg",
+"system": {
+"identifier": "tempest-domain",
+"classIdentifier": "cleric",
+"description": { "value": "Subclasse do Clérigo que manipula raios, trovões e o poder dos mares e céus." }
+}
+},
+{
+"_id": "subcls2024trickery0",
+"name": "Domínio da Enganação",
+"type": "subclass",
+"img": "icons/svg/sun.svg",
+"system": {
+"identifier": "trickery-domain",
+"classIdentifier": "cleric",
+"description": { "value": "Subclasse do Clérigo focada na ilusão, subterfúgio e perturbação da ordem." }
+}
+},
+
+{
+"_id": "subcls2024land00000",
+"name": "Círculo da Terra",
+"type": "subclass",
+"img": "icons/svg/oak.svg",
+"system": {
+"identifier": "circle-of-the-land",
+"classIdentifier": "druid",
+"description": { "value": "Subclasse do Druida focada no domínio mágico dos ecossistemas da natureza." }
+}
+},
+{
+"_id": "subcls2024moon00000",
+"name": "Círculo da Lua",
+"type": "subclass",
+"img": "icons/svg/oak.svg",
+"system": {
+"identifier": "circle-of-the-moon",
+"classIdentifier": "druid",
+"description": { "value": "Subclasse do Druida especializada na transformação e combate com Forma Selvagem." }
+}
+},
+{
+"_id": "subcls2024sea000000",
+"name": "Círculo do Mar",
+"type": "subclass",
+"img": "icons/svg/oak.svg",
+"system": {
+"identifier": "circle-of-the-sea",
+"classIdentifier": "druid",
+"description": { "value": "Subclasse do Druida que canaliza a fúria das tempestades costeiras e oceânicas." }
+}
+},
+{
+"_id": "subcls2024stars0000",
+"name": "Círculo das Estrelas",
+"type": "subclass",
+"img": "icons/svg/oak.svg",
+"system": {
+"identifier": "circle-of-stars",
+"classIdentifier": "druid",
+"description": { "value": "Subclasse do Druida que aproveita a luz das constelações do cosmos." }
+}
+},
+
+{
+"_id": "subcls2024battlemast",
+"name": "Mestre de Armas (Battle Master)",
+"type": "subclass",
+"img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+"system": {
+"identifier": "battle-master",
+"classIdentifier": "fighter",
+"description": { "value": "Subclasse do Guerreiro focada em manobras táticas e maestria marcial." }
+}
+},
+{
+"_id": "subcls2024champion0",
+"name": "Campeão",
+"type": "subclass",
+"img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+"system": {
+"identifier": "champion",
+"classIdentifier": "fighter",
+"description": { "value": "Subclasse do Guerreiro focada no desenvolvimento da força bruta e ataques críticos." }
+}
+},
+{
+"_id": "subcls2024eldritchk",
+"name": "Cavaleiro Arcano (Eldritch Knight)",
+"type": "subclass",
+"img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+"system": {
+"identifier": "eldritch-knight",
+"classIdentifier": "fighter",
+"spellcasting": { "progression": "third", "ability": "int" },
+"description": { "value": "Subclasse do Guerreiro que combina técnicas de combate com magias arcanas." }
+}
+},
+{
+"_id": "subcls2024psiwarrio",
+"name": "Guerreiro Psíquico (Psi Warrior)",
+"type": "subclass",
+"img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+"system": {
+"identifier": "psi-warrior",
+"classIdentifier": "fighter",
+"description": { "value": "Subclasse do Guerreiro que aumenta os ataques usando o poder da mente." }
+}
+},
+
+{
+"_id": "subcls2024elements0",
+"name": "Caminho dos Elementos",
+"type": "subclass",
+"img": "icons/skills/melee/unarmed-punch-fist.webp",
+"system": {
+"identifier": "warrior-of-elements",
+"classIdentifier": "monk",
+"description": { "value": "Subclasse do Monge que manipula a energia elemental para ataques à distância." }
+}
+},
+{
+"_id": "subcls2024mercy0000",
+"name": "Caminho da Misericórdia",
+"type": "subclass",
+"img": "icons/skills/melee/unarmed-punch-fist.webp",
+"system": {
+"identifier": "warrior-of-mercy",
+"classIdentifier": "monk",
+"description": { "value": "Subclasse do Monge que manipula a força vital para curar feridos ou infligir sofrimento." }
+}
+},
+{
+"_id": "subcls2024openhand0",
+"name": "Caminho da Mão Aberta",
+"type": "subclass",
+"img": "icons/skills/melee/unarmed-punch-fist.webp",
+"system": {
+"identifier": "warrior-of-open-hand",
+"classIdentifier": "monk",
+"description": { "value": "Mestre supremo do combate desarmado e controle físico do inimigo." }
+}
+},
+{
+"_id": "subcls2024shadow000",
+"name": "Caminho da Sombra",
+"type": "subclass",
+"img": "icons/skills/melee/unarmed-punch-fist.webp",
+"system": {
+"identifier": "warrior-of-shadow",
+"classIdentifier": "monk",
+"description": { "value": "Subclasse do Monge focada em furtividade, ilusões e deslocamento pelas sombras." }
+}
+},
+
+{
+"_id": "subcls2024ancients0",
+"name": "Juramento dos Anciões",
+"type": "subclass",
+"img": "icons/skills/melee/shield-block-gray.webp",
+"system": {
+"identifier": "oath-of-the-ancients",
+"classIdentifier": "paladin",
+"description": { "value": "Subclasse do Paladino dedicada a preservar a luz, a beleza e a natureza do mundo." }
+}
+},
+{
+"_id": "subcls2024devotion0",
+"name": "Juramento de Devoção",
+"type": "subclass",
+"img": "icons/skills/melee/shield-block-gray.webp",
+"system": {
+"identifier": "oath-of-devotion",
+"classIdentifier": "paladin",
+"description": { "value": "O arquetípico paladino de armadura reluzente focado em justiça e honra." }
+}
+},
+{
+"_id": "subcls2024glory0000",
+"name": "Juramento da Glória",
+"type": "subclass",
+"img": "icons/skills/melee/shield-block-gray.webp",
+"system": {
+"identifier": "oath-of-glory",
+"classIdentifier": "paladin",
+"description": { "value": "Subclasse do Paladino focada em feitos de atletismo físico e lendas de heróis." }
+}
+},
+{
+"_id": "subcls2024vengeance",
+"name": "Juramento de Vingança",
+"type": "subclass",
+"img": "icons/skills/melee/shield-block-gray.webp",
+"system": {
+"identifier": "oath-of-vengeance",
+"classIdentifier": "paladin",
+"description": { "value": "Subclasse do Paladino focada na caça obstinada e punição de transgressores." }
+}
+},
+
+{
+"_id": "subcls2024beastmast",
+"name": "Mestre das Feras (Beast Master)",
+"type": "subclass",
+"img": "icons/skills/ranged/target-bullseye-arrow-green.webp",
+"system": {
+"identifier": "beast-master",
+"classIdentifier": "ranger",
+"description": { "value": "Subclasse do Patrulheiro que cria um vínculo místico com um companheiro besta." }
+}
+},
+{
+"_id": "subcls2024feywander",
+"name": "Andarilho do Agrestia (Fey Wanderer)",
+"type": "subclass",
+"img": "icons/skills/ranged/target-bullseye-arrow-green.webp",
+"system": {
+"identifier": "fey-wanderer",
+"classIdentifier": "ranger",
+"description": { "value": "Subclasse do Patrulheiro imbuída com as bênçãos místicas da Agrestia das Fadas." }
+}
+},
+{
+"_id": "subcls2024gloomstal",
+"name": "Perseguidor das Sombras (Gloom Stalker)",
+"type": "subclass",
+"img": "icons/skills/ranged/target-bullseye-arrow-green.webp",
+"system": {
+"identifier": "gloom-stalker",
+"classIdentifier": "ranger",
+"description": { "value": "Subclasse do Patrulheiro focado no combate no escuro e emboscadas rápidas." }
+}
+},
+{
+"_id": "subcls2024hunter000",
+"name": "Caçador (Hunter)",
+"type": "subclass",
+"img": "icons/skills/ranged/target-bullseye-arrow-green.webp",
+"system": {
+"identifier": "hunter",
+"classIdentifier": "ranger",
+"description": { "value": "Mestre de técnicas táticas especializadas para derrotar ameaças gigantescas." }
+}
+},
+
+{
+"_id": "subcls2024arcanetri",
+"name": "Trapaceiro Arcano (Arcane Trickster)",
+"type": "subclass",
+"img": "icons/skills/melee/dagger-thrust-shadow-purple.webp",
+"system": {
+"identifier": "arcane-trickster",
+"classIdentifier": "rogue",
+"spellcasting": { "progression": "third", "ability": "int" },
+"description": { "value": "Subclasse do Ladino que combina habilidades manuais com magias de encantamento e ilusão." }
+}
+},
+{
+"_id": "subcls2024assassin0",
+"name": "Assassino",
+"type": "subclass",
+"img": "icons/skills/melee/dagger-thrust-shadow-purple.webp",
+"system": {
+"identifier": "assassin",
+"classIdentifier": "rogue",
+"description": { "value": "Mestre do veneno, disfarces e acertos críticos letais no primeiro rodada." }
+}
+},
+{
+"_id": "subcls2024soulknife",
+"name": "Lâmina Psíquica (Soulknife)",
+"type": "subclass",
+"img": "icons/skills/melee/dagger-thrust-shadow-purple.webp",
+"system": {
+"identifier": "soulknife",
+"classIdentifier": "rogue",
+"description": { "value": "Subclasse do Ladino que projeta lâminas de energia psíquica para ataques e suporte." }
+}
+},
+{
+"_id": "subcls2024thief0000",
+"name": "Ladrão (Thief)",
+"type": "subclass",
+"img": "icons/skills/melee/dagger-thrust-shadow-purple.webp",
+"system": {
+"identifier": "thief",
+"classIdentifier": "rogue",
+"description": { "value": "Aceleração de mãos, agilidade superior e capacidade de usar itens mágicos." }
+}
+},
+
+{
+"_id": "subcls2024aberrant0",
+"name": "Feitiçaria Aberrante",
+"type": "subclass",
+"img": "icons/svg/lightning.svg",
+"system": {
+"identifier": "aberrant-sorcery",
+"classIdentifier": "sorcerer",
+"description": { "value": "Subclasse do Feiticeiro tocada pela influência psíquica de entidades alienígenas." }
+}
+},
+{
+"_id": "subcls2024clockwork",
+"name": "Feitiçaria do Mecanismo (Clockwork)",
+"type": "subclass",
+"img": "icons/svg/lightning.svg",
+"system": {
+"identifier": "clockwork-sorcery",
+"classIdentifier": "sorcerer",
+"description": { "value": "Subclasse do Feiticeiro conectada à ordem cósmica absoluta do plano de Mechanus." }
+}
+},
+{
+"_id": "subcls2024draconic0",
+"name": "Feitiçaria Dracônica",
+"type": "subclass",
+"img": "icons/svg/lightning.svg",
+"system": {
+"identifier": "draconic-sorcery",
+"classIdentifier": "sorcerer",
+"description": { "value": "Mágica elemental derivada do poder antigo dos dragões." }
+}
+},
+{
+"_id": "subcls2024wildmagic",
+"name": "Feitiçaria Selvagem",
+"type": "subclass",
+"img": "icons/svg/lightning.svg",
+"system": {
+"identifier": "wild-magic-sorcery",
+"classIdentifier": "sorcerer",
+"description": { "value": "Subclasse do Feiticeiro que canaliza as forças imprevisíveis do caos elemental." }
+}
+},
+
+{
+"_id": "subcls2024archfey00",
+"name": "O Arquifada",
+"type": "subclass",
+"img": "icons/svg/skull.svg",
+"system": {
+"identifier": "archfey-patron",
+"classIdentifier": "warlock",
+"description": { "value": "Pacto com um senhor da Agrestia das Fadas focado em teletransporte e ilusões." }
+}
+},
+{
+"_id": "subcls2024celestial",
+"name": "O Celestial",
+"type": "subclass",
+"img": "icons/svg/skull.svg",
+"system": {
+"identifier": "celestial-patron",
+"classIdentifier": "warlock",
+"description": { "value": "Pacto assinado com um ser dos planos superiores, concedendo cura e luz." }
+}
+},
+{
+"_id": "subcls2024fiend0000",
+"name": "O Corruptor (Fiend)",
+"type": "subclass",
+"img": "icons/svg/skull.svg",
+"system": {
+"identifier": "fiend-patron",
+"classIdentifier": "warlock",
+"description": { "value": "Pacto com um diabo ou demônio dos planos inferiores, focado na destruição e fogo." }
+}
+},
+{
+"_id": "subcls2024greatold1",
+"name": "O Grande Antigo (Great Old One)",
+"type": "subclass",
+"img": "icons/svg/skull.svg",
+"system": {
+"identifier": "great-old-one-patron",
+"classIdentifier": "warlock",
+"description": { "value": "Pacto com uma entidade insondável do Reino Distante, mestre da telepatia e controle mental." }
+}
+},
+
+{
+"_id": "subcls2024abjurer00",
+"name": "Abjurador",
+"type": "subclass",
+"img": "icons/skills/spells/academic-study-book-yellow.webp",
+"system": {
+"identifier": "abjuration-wizard",
+"classIdentifier": "wizard",
+"description": { "value": "Especialista em magia protetora, escudos e eliminação de feitiços inimigos." }
+}
+},
+{
+"_id": "subcls2024diviner00",
+"name": "Adivinho",
+"type": "subclass",
+"img": "icons/skills/spells/academic-study-book-yellow.webp",
+"system": {
+"identifier": "divination-wizard",
+"classIdentifier": "wizard",
+"description": { "value": "Especialista em discernir o futuro, revelando segredos e manipulando rolagens." }
+}
+},
+{
+"_id": "subcls2024evoker000",
+"name": "Evocador",
+"type": "subclass",
+"img": "icons/skills/spells/academic-study-book-yellow.webp",
+"system": {
+"identifier": "evocation-wizard",
+"classIdentifier": "wizard",
+"description": { "value": "Mestre na criação de efeitos mágicos destrutivos e proteção de aliados em área." }
+}
+},
+{
+"_id": "subcls2024illusioni",
+"name": "Ilusionista",
+"type": "subclass",
+"img": "icons/skills/spells/academic-study-book-yellow.webp",
+"system": {
+"identifier": "illusion-wizard",
+"classIdentifier": "wizard",
+"description": { "value": "Especialista na fabricação de enganos perceptivos e distorção da realidade." }
+}
+}
+]

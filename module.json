@@ -1,0 +1,61 @@
+{
+  "id": "Jurumbreula",
+  "title": "D&D 5.5e Content & Builder Integration",
+  "description": "Adiciona classes, subclasses e itens atualizados (2024) integrados ao character builder do Foundry.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0"
+        }
+      }
+    ],
+    "dependencies": [
+      {
+        "id": "dnd5e-character-builder",
+        "type": "module",
+        "compatibility": { "minimum": "1.0.0" }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "classes-55e",
+      "label": "Classes (5.5e)",
+      "path": "packs/classes.db",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "subclasses-55e",
+      "label": "Subclasses (5.5e)",
+      "path": "packs/subclasses.db",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "features-55e",
+      "label": "Características e Talentos (5.5e)",
+      "path": "packs/features.db",
+      "type": "Item",
+      "system": "dnd5e"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ]
+}
