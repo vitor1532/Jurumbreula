@@ -1,65 +1,110 @@
+// Função auxiliar para higienizar os _ids do item e de seus advancements
+function fixItemIds(item) {
+    const cleanItem = JSON.parse(JSON.stringify(item));
+
+    if (cleanItem._id && typeof cleanItem._id === 'string' && cleanItem._id.length !== 16) {
+        delete cleanItem._id;
+    }
+
+    if (cleanItem.system && Array.isArray(cleanItem.system.advancement)) {
+        cleanItem.system.advancement = cleanItem.system.advancement.map(adv => {
+            if (adv._id && typeof adv._id === 'string' && adv._id.length !== 16) {
+                adv._id = foundry.utils.randomID();
+            }
+            return adv;
+        });
+    }
+
+    return cleanItem;
+}
+
 Hooks.once('ready', async () => {
-    // Apenas o GM executa a rotina de criação inicial dos compêndios
-    if (!game.user.isGM) return;
+    // 1. Confirmação de execução do Módulo
+    console.log("%cJurumbreula | Hook 'ready' executado!", "color: #00ff00; font-weight: bold; font-size: 14px;");
 
-    const classPack = game.packs.get("Jurumbleura.classes-55e");
-    const subclassPack = game.packs.get("Jurumbleura.subclasses-55e");
-    const spellPack = game.packs.get("Jurumbleura.spells-55e");
+    if (!game.user.isGM) {
+        console.log("Jurumbreula | Usuário não é GM. Importação ignorada.");
+        return;
+    }
 
-    if (!classPack || !subclassPack || !spellPack) return;
+    const classPack = game.packs.get("Jurumbreula.classes-55e");
+    const subclassPack = game.packs.get("Jurumbreula.subclasses-55e");
+    const spellPack = game.packs.get("Jurumbreula.spells-55e");
 
-    // 1. Importa Magias se o compêndio estiver vazio
-    if ((await spellPack.getIndex()).size === 0) {
-        ui.notifications.info("Jurumbleura | Importando biblioteca de Magias 2024...");
-        try {
+    if (!classPack || !subclassPack || !spellPack) {
+        ui.notifications.error("Jurumbreula | ERRO: Compêndios não encontrados! Verifique o nome da pasta e do ID do módulo.");
+        console.error("Jurumbreula | Compêndios ausentes:", { classPack, subclassPack, spellPack });
+        return;
+    }
+
+    // --- 1. IMPORTAÇÃO DAS MAGIAS ---
+    try {
+        const spellIndex = await spellPack.getIndex();
+        console.log(`Jurumbreula | Magias encontradas no compêndio: ${spellIndex.size}`);
+
+        if (spellIndex.size === 0) {
+            ui.notifications.info("Jurumbreula | Iniciando importação de Magias 2024...");
             await spellPack.configure({ locked: false });
-            
-            const files = [
+
+            const spellFiles = [
                 "cantrips.json", "level-1.json", "level-2.json", "level-3.json",
                 "level-4.json", "level-5.json", "level-6.json", "level-7.json",
                 "level-8.json", "level-9.json"
             ];
 
-            let allSpells = [];
-            for (const file of files) {
-                const res = await fetch(`modules/Jurumbleura/data/spells/${file}`);
-                if (res.ok) {
-                    const data = await res.json();
-                    allSpells = allSpells.concat(data);
+            let allSpellsData = [];
+            for (const file of spellFiles) {
+                const response = await fetch(`modules/Jurumbreula/data/spells/${file}`);
+                if (response.ok) {
+                    const spells = await response.json();
+                    allSpellsData = allSpellsData.concat(spells);
+                } else {
+                    console.warn(`Jurumbreula | Não foi possível encontrar modules/Jurumbreula/data/spells/${file}`);
                 }
             }
 
-            await Item.createDocuments(allSpells, { pack: "Jurumbleura.spells-55e" });
+            if (allSpellsData.length > 0) {
+                const cleanSpells = allSpellsData.map(fixItemIds);
+                await Item.createDocuments(cleanSpells, { pack: "Jurumbreula.spells-55e" });
+                ui.notifications.info(`Jurumbreula | Sucesso! ${cleanSpells.length} magias importadas.`);
+            } else {
+                ui.notifications.warn("Jurumbreula | Nenhum dado de magia foi encontrado nos arquivos JSON.");
+            }
+
             await spellPack.configure({ locked: true });
-            ui.notifications.info("Jurumbleura | Magias importadas com sucesso!");
-        } catch (e) {
-            console.error("Jurumbleura | Erro ao carregar Magias:", e);
         }
+    } catch (error) {
+        console.error("Jurumbreula | Erro na importação de magias:", error);
     }
 
-    // 2. Importa Classes e Subclasses vinculadas
-    if ((await classPack.getIndex()).size === 0) {
-        ui.notifications.info("Jurumbleura | Importando Classes e Subclasses integradas...");
-        try {
+    // --- 2. IMPORTAÇÃO DE CLASSES E SUBCLASSES ---
+    try {
+        const classIndex = await classPack.getIndex();
+        console.log(`Jurumbreula | Classes encontradas no compêndio: ${classIndex.size}`);
+
+        if (classIndex.size === 0) {
+            ui.notifications.info("Jurumbreula | Iniciando importação de Classes e Subclasses...");
             await classPack.configure({ locked: false });
             await subclassPack.configure({ locked: false });
 
-            const res = await fetch("modules/Jurumbleura/data/classes-and-subclasses-2024.json");
-            const data = await res.json();
+            const response = await fetch("modules/Jurumbreula/data/classes-and-subclasses-2024.json");
+            if (!response.ok) {
+                throw new Error("Falha ao realizar fetch do arquivo classes-and-subclasses-2024.json");
+            }
 
-            const subclasses = data.filter(i => i.type === "subclass");
-            const classes = data.filter(i => i.type === "class");
+            const itemsData = await response.json();
+            const rawSubclasses = itemsData.filter(item => item.type === "subclass").map(fixItemIds);
+            const rawClasses = itemsData.filter(item => item.type === "class").map(fixItemIds);
 
-            // Cria Subclasses primeiro e Classes depois
-            await Item.createDocuments(subclasses, { pack: "Jurumbleura.subclasses-55e" });
-            await Item.createDocuments(classes, { pack: "Jurumbleura.classes-55e" });
+            await Item.createDocuments(rawSubclasses, { pack: "Jurumbreula.subclasses-55e" });
+            await Item.createDocuments(rawClasses, { pack: "Jurumbreula.classes-55e" });
 
             await classPack.configure({ locked: true });
             await subclassPack.configure({ locked: true });
 
-            ui.notifications.info("Jurumbleura | Classes e Subclasses registradas com sucesso!");
-        } catch (e) {
-            console.error("Jurumbleura | Erro ao carregar Classes/Subclasses:", e);
+            ui.notifications.info("Jurumbreula | Classes e Subclasses importadas com sucesso!");
         }
+    } catch (error) {
+        console.error("Jurumbreula | Erro na importação de classes/subclasses:", error);
     }
 });
