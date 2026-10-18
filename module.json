@@ -48,13 +48,6 @@
       "system": "dnd5e"
     }
   ],
-  "languages": [
-    {
-      "lang": "pt-BR",
-      "name": "Português (Brasil)",
-      "path": "lang/pt-BR.json"
-    }
-  ],
   "esmodules": [
     "scripts/main.js"
   ]
