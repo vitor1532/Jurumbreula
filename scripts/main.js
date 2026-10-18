@@ -21,19 +21,19 @@ function fixItemIds(item) {
 Hooks.once('ready', async () => {
     if (!game.user.isGM) return;
 
-    const classPack = game.packs.get("Jurumbleura.classes-55e");
-    const subclassPack = game.packs.get("Jurumbleura.subclasses-55e");
-    const spellPack = game.packs.get("Jurumbleura.spells-55e");
+    const classPack = game.packs.get("Jurumbreula.classes-55e");
+    const subclassPack = game.packs.get("Jurumbreula.subclasses-55e");
+    const spellPack = game.packs.get("Jurumbreula.spells-55e");
 
     if (!classPack || !subclassPack || !spellPack) return;
 
     // --- 1. IMPORTAÇÃO DAS CLASSES E SUBCLASSES ---
     const classIndex = await classPack.getIndex();
     if (classIndex.size === 0) {
-        ui.notifications.info("Jurumbleura | Populando compêndios de Classes e Subclasses...");
+        ui.notifications.info("Jurumbreula | Populando compêndios de Classes e Subclasses...");
 
         try {
-            const response = await fetch("modules/Jurumbleura/data/classes-and-subclasses-2024.json");
+            const response = await fetch("modules/Jurumbreula/data/classes-and-subclasses-2024.json");
             const itemsData = await response.json();
 
             await classPack.configure({ locked: false });
@@ -41,7 +41,7 @@ Hooks.once('ready', async () => {
 
             // Importa Subclasses
             const rawSubclasses = itemsData.filter(item => item.type === "subclass").map(fixItemIds);
-            const createdSubclasses = await Item.createDocuments(rawSubclasses, { pack: "Jurumbleura.subclasses-55e" });
+            const createdSubclasses = await Item.createDocuments(rawSubclasses, { pack: "Jurumbreula.subclasses-55e" });
 
             // Mapeia os UUIDs das subclasses por classIdentifier
             const classToSubclassUuids = {};
@@ -69,21 +69,21 @@ Hooks.once('ready', async () => {
                 return cls;
             });
 
-            await Item.createDocuments(classes, { pack: "Jurumbleura.classes-55e" });
+            await Item.createDocuments(classes, { pack: "Jurumbreula.classes-55e" });
 
             await classPack.configure({ locked: true });
             await subclassPack.configure({ locked: true });
 
-            ui.notifications.info("Jurumbleura | Compêndios de Classes criados com sucesso!");
+            ui.notifications.info("Jurumbreula | Compêndios de Classes criados com sucesso!");
         } catch (error) {
-            console.error("Jurumbleura | Erro ao carregar Classes/Subclasses:", error);
+            console.error("Jurumbreula | Erro ao carregar Classes/Subclasses:", error);
         }
     }
 
     // --- 2. IMPORTAÇÃO DAS MAGIAS (MULTIPLOS ARQUIVOS JSON) ---
     const spellIndex = await spellPack.getIndex();
     if (spellIndex.size === 0) {
-        ui.notifications.info("Jurumbleura | Populando compêndio de Magias por Nível (PHB 2024)...");
+        ui.notifications.info("Jurumbreula | Populando compêndio de Magias por Nível (PHB 2024)...");
 
         // Lista de todos os arquivos de magias
         const spellFiles = [
@@ -106,23 +106,23 @@ Hooks.once('ready', async () => {
 
             // Lê cada arquivo individualmente e agrupa no array principal
             for (const file of spellFiles) {
-                const response = await fetch(`modules/Jurumbleura/data/spells/${file}`);
+                const response = await fetch(`modules/Jurumbreula/data/spells/${file}`);
                 if (response.ok) {
                     const spells = await response.json();
                     allSpellsData = allSpellsData.concat(spells);
                 } else {
-                    console.warn(`Jurumbleura | Não foi possível carregar modules/Jurumbleura/data/spells/${file}`);
+                    console.warn(`Jurumbreula | Não foi possível carregar modules/Jurumbreula/data/spells/${file}`);
                 }
             }
 
             const cleanSpells = allSpellsData.map(fixItemIds);
-            await Item.createDocuments(cleanSpells, { pack: "Jurumbleura.spells-55e" });
+            await Item.createDocuments(cleanSpells, { pack: "Jurumbreula.spells-55e" });
 
             await spellPack.configure({ locked: true });
 
-            ui.notifications.info(`Jurumbleura | Compêndio com ${cleanSpells.length} Magias criado com sucesso!`);
+            ui.notifications.info(`Jurumbreula | Compêndio com ${cleanSpells.length} Magias criado com sucesso!`);
         } catch (error) {
-            console.error("Jurumbleura | Erro ao carregar arquivos de Magias:", error);
+            console.error("Jurumbreula | Erro ao carregar arquivos de Magias:", error);
         }
     }
 });
