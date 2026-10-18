@@ -81,8 +81,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "0f02e30adf2d4407",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.3b9f62eab1ce491a",
+              "Compendium.Jurumbreula.subclasses-55e.Item.27e0d4b88cac4f27",
+              "Compendium.Jurumbreula.subclasses-55e.Item.4864ad91122e4fbb",
+              "Compendium.Jurumbreula.subclasses-55e.Item.subcls2024zealot"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -165,8 +187,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "9b3c559bda2e4468",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.a2c913f039b94fab",
+              "Compendium.Jurumbreula.subclasses-55e.Item.b1e2bb5d341e47b7",
+              "Compendium.Jurumbreula.subclasses-55e.Item.0b3fc7b920fc4b54",
+              "Compendium.Jurumbreula.subclasses-55e.Item.a8558808c57b40c8"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -251,8 +295,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "c7a48de98f734dc0",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.78f2db89a3e44f81",
+              "Compendium.Jurumbreula.subclasses-55e.Item.dd4e019242ac4fcf",
+              "Compendium.Jurumbreula.subclasses-55e.Item.fdf1bb3624c24ae3",
+              "Compendium.Jurumbreula.subclasses-55e.Item.df6df3a1559e4e8e"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -336,8 +402,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "37da6e959d8144e7",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.4130930e6fa54d61",
+              "Compendium.Jurumbreula.subclasses-55e.Item.36bbc976febb4b7b",
+              "Compendium.Jurumbreula.subclasses-55e.Item.6f73c78343034e0d",
+              "Compendium.Jurumbreula.subclasses-55e.Item.7c6d39ae32ef4bcd"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -423,8 +511,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "40efffaefcfb472b",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.44288080174646ea",
+              "Compendium.Jurumbreula.subclasses-55e.Item.1b714c955c8e4dea",
+              "Compendium.Jurumbreula.subclasses-55e.Item.3536af5efde54f3c",
+              "Compendium.Jurumbreula.subclasses-55e.Item.1131ccc4c8bd4634"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -506,8 +616,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "d7fdf8ca373042dc",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.bfe283fec3334eb3",
+              "Compendium.Jurumbreula.subclasses-55e.Item.ef8153825b3646d7",
+              "Compendium.Jurumbreula.subclasses-55e.Item.815346155668413e",
+              "Compendium.Jurumbreula.subclasses-55e.Item.b582d33ac1d348fe"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -594,8 +726,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "a671f1df5ae74827",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.b849705092f84905",
+              "Compendium.Jurumbreula.subclasses-55e.Item.706f7627eed44698",
+              "Compendium.Jurumbreula.subclasses-55e.Item.cf8d83c3010e447a",
+              "Compendium.Jurumbreula.subclasses-55e.Item.07e6bbc47d794a32"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -681,8 +835,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "39a3b90e0852452f",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.7c47f604c78949f6",
+              "Compendium.Jurumbreula.subclasses-55e.Item.c30127b1d9714755",
+              "Compendium.Jurumbreula.subclasses-55e.Item.917d02653bf1471c",
+              "Compendium.Jurumbreula.subclasses-55e.Item.dc72cbc764294e31"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -766,8 +942,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "17ed613f649b4368",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.e686def216974c6d",
+              "Compendium.Jurumbreula.subclasses-55e.Item.0344379cff4547a4",
+              "Compendium.Jurumbreula.subclasses-55e.Item.78b0a3f3aeee4e9e",
+              "Compendium.Jurumbreula.subclasses-55e.Item.c28d8056338e462e"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -849,8 +1047,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "57b0f262962a408e",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.d82aec517a904a34",
+              "Compendium.Jurumbreula.subclasses-55e.Item.0023f346b1784b5a",
+              "Compendium.Jurumbreula.subclasses-55e.Item.fe796731349b4a21",
+              "Compendium.Jurumbreula.subclasses-55e.Item.a5b4364b4cc44e4d"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -933,8 +1153,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "2b1a8195a65c4600",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.820a8cc45b884435",
+              "Compendium.Jurumbreula.subclasses-55e.Item.5afd99ece3d440ee",
+              "Compendium.Jurumbreula.subclasses-55e.Item.b84c376c796843d8",
+              "Compendium.Jurumbreula.subclasses-55e.Item.4e040c4d1be54952"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -1016,8 +1258,30 @@
               "3": 1
             }
           }
+        },
+        {
+          "_id": "90c2ccf045e34e7e",
+          "type": "ItemChoice",
+          "level": 3,
+          "title": "Escolha de Subclasse",
+          "icon": "icons/skills/social/diplomacy-handshake.webp",
+          "configuration": {
+            "pool": [
+              "Compendium.Jurumbreula.subclasses-55e.Item.8faa1089a6204a46",
+              "Compendium.Jurumbreula.subclasses-55e.Item.9b82fdf966df463b",
+              "Compendium.Jurumbreula.subclasses-55e.Item.226607b14715473f",
+              "Compendium.Jurumbreula.subclasses-55e.Item.8dc18d52797640d8"
+            ],
+            "choices": {
+              "3": 1
+            }
+          }
         }
-      ]
+      ],
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
+      }
     }
   },
   {
@@ -1030,6 +1294,10 @@
       "classIdentifier": "barbarian",
       "description": {
         "value": "Subclasse do Bárbaro focada em fúria irrestrita e ataques adicionais."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1043,6 +1311,10 @@
       "classIdentifier": "barbarian",
       "description": {
         "value": "Subclasse do Bárbaro em harmonia com os espíritos dos animais."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1056,6 +1328,10 @@
       "classIdentifier": "barbarian",
       "description": {
         "value": "Subclasse do Bárbaro conectada à Yggdrasil, concedendo vitalidade e alcance vital."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1069,6 +1345,10 @@
       "classIdentifier": "barbarian",
       "description": {
         "value": "Subclasse do Bárbaro alimentada pelo poder de uma divindade."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1082,6 +1362,10 @@
       "classIdentifier": "bard",
       "description": {
         "value": "Subclasse do Bardo que expressa a magia da criação através do movimento sem armadura."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1095,6 +1379,10 @@
       "classIdentifier": "bard",
       "description": {
         "value": "Subclasse do Bardo que canaliza a magia sedutora e majestosa da Agrestia das Fadas."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1108,6 +1396,10 @@
       "classIdentifier": "bard",
       "description": {
         "value": "Subclasse do Bardo focada na busca por segredos e domínio de diversas perícias."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1121,6 +1413,10 @@
       "classIdentifier": "bard",
       "description": {
         "value": "Subclasse do Bardo que inspira grandes feitos no campo de batalha."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1134,6 +1430,10 @@
       "classIdentifier": "cleric",
       "description": {
         "value": "Subclasse do Clérigo focada na preservação da vida e canalização de curas intensas."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1147,6 +1447,10 @@
       "classIdentifier": "cleric",
       "description": {
         "value": "Subclasse do Clérigo focada no fogo divinal, verdade e dissipação de sombras."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1160,6 +1464,10 @@
       "classIdentifier": "cleric",
       "description": {
         "value": "Subclasse do Clérigo que manipula raios, trovões e o poder dos mares e céus."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1173,6 +1481,10 @@
       "classIdentifier": "cleric",
       "description": {
         "value": "Subclasse do Clérigo focada na ilusão, subterfúgio e perturbação da ordem."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1186,6 +1498,10 @@
       "classIdentifier": "druid",
       "description": {
         "value": "Subclasse do Druida focada no domínio mágico dos ecossistemas da natureza."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1199,6 +1515,10 @@
       "classIdentifier": "druid",
       "description": {
         "value": "Subclasse do Druida especializada na transformação e combate com Forma Selvagem."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1212,6 +1532,10 @@
       "classIdentifier": "druid",
       "description": {
         "value": "Subclasse do Druida que canaliza a fúria das tempestades costeiras e oceânicas."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1225,6 +1549,10 @@
       "classIdentifier": "druid",
       "description": {
         "value": "Subclasse do Druida que aproveita a luz das constelações do cosmos."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1238,6 +1566,10 @@
       "classIdentifier": "fighter",
       "description": {
         "value": "Subclasse do Guerreiro focada em manobras táticas e maestria marcial."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1251,6 +1583,10 @@
       "classIdentifier": "fighter",
       "description": {
         "value": "Subclasse do Guerreiro focada no desenvolvimento da força bruta e ataques críticos."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1268,6 +1604,10 @@
       },
       "description": {
         "value": "Subclasse do Guerreiro que combina técnicas de combate com magias arcanas."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1281,6 +1621,10 @@
       "classIdentifier": "fighter",
       "description": {
         "value": "Subclasse do Guerreiro que aumenta os ataques usando o poder da mente."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1294,6 +1638,10 @@
       "classIdentifier": "monk",
       "description": {
         "value": "Subclasse do Monge que manipula a energia elemental para ataques à distância."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1307,6 +1655,10 @@
       "classIdentifier": "monk",
       "description": {
         "value": "Subclasse do Monge que manipula a força vital para curar feridos ou infligir sofrimento."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1320,6 +1672,10 @@
       "classIdentifier": "monk",
       "description": {
         "value": "Mestre supremo do combate desarmado e controle físico do inimigo."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1333,6 +1689,10 @@
       "classIdentifier": "monk",
       "description": {
         "value": "Subclasse do Monge focada em furtividade, ilusões e deslocamento pelas sombras."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1346,6 +1706,10 @@
       "classIdentifier": "paladin",
       "description": {
         "value": "Subclasse do Paladino dedicada a preservar a luz, a beleza e a natureza do mundo."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1359,6 +1723,10 @@
       "classIdentifier": "paladin",
       "description": {
         "value": "O arquetípico paladino de armadura reluzente focado em justiça e honra."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1372,6 +1740,10 @@
       "classIdentifier": "paladin",
       "description": {
         "value": "Subclasse do Paladino focada em feitos de atletismo físico e lendas de heróis."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1385,6 +1757,10 @@
       "classIdentifier": "paladin",
       "description": {
         "value": "Subclasse do Paladino focada na caça obstinada e punição de transgressores."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1398,6 +1774,10 @@
       "classIdentifier": "ranger",
       "description": {
         "value": "Subclasse do Patrulheiro que cria um vínculo místico com um companheiro besta."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1411,6 +1791,10 @@
       "classIdentifier": "ranger",
       "description": {
         "value": "Subclasse do Patrulheiro imbuída com as bênçãos místicas da Agrestia das Fadas."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1424,6 +1808,10 @@
       "classIdentifier": "ranger",
       "description": {
         "value": "Subclasse do Patrulheiro focado no combate no escuro e emboscadas rápidas."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1437,6 +1825,10 @@
       "classIdentifier": "ranger",
       "description": {
         "value": "Mestre de técnicas táticas especializadas para derrotar ameaças gigantescas."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1454,6 +1846,10 @@
       },
       "description": {
         "value": "Subclasse do Ladino que combina habilidades manuais com magias de encantamento e ilusão."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1467,6 +1863,10 @@
       "classIdentifier": "rogue",
       "description": {
         "value": "Mestre do veneno, disfarces e acertos críticos letais no primeiro rodada."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1480,6 +1880,10 @@
       "classIdentifier": "rogue",
       "description": {
         "value": "Subclasse do Ladino que projeta lâminas de energia psíquica para ataques e suporte."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1493,6 +1897,10 @@
       "classIdentifier": "rogue",
       "description": {
         "value": "Aceleração de mãos, agilidade superior e capacidade de usar itens mágicos."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1506,6 +1914,10 @@
       "classIdentifier": "sorcerer",
       "description": {
         "value": "Subclasse do Feiticeiro tocada pela influência psíquica de entidades alienígenas."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1519,6 +1931,10 @@
       "classIdentifier": "sorcerer",
       "description": {
         "value": "Subclasse do Feiticeiro conectada à ordem cósmica absoluta do plano de Mechanus."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1532,6 +1948,10 @@
       "classIdentifier": "sorcerer",
       "description": {
         "value": "Mágica elemental derivada do poder antigo dos dragões."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1545,6 +1965,10 @@
       "classIdentifier": "sorcerer",
       "description": {
         "value": "Subclasse do Feiticeiro que canaliza as forças imprevisíveis do caos elemental."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1558,6 +1982,10 @@
       "classIdentifier": "warlock",
       "description": {
         "value": "Pacto com um senhor da Agrestia das Fadas focado em teletransporte e ilusões."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1571,6 +1999,10 @@
       "classIdentifier": "warlock",
       "description": {
         "value": "Pacto assinado com um ser dos planos superiores, concedendo cura e luz."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1584,6 +2016,10 @@
       "classIdentifier": "warlock",
       "description": {
         "value": "Pacto com um diabo ou demônio dos planos inferiores, focado na destruição e fogo."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1597,6 +2033,10 @@
       "classIdentifier": "warlock",
       "description": {
         "value": "Pacto com uma entidade insondável do Reino Distante, mestre da telepatia e controle mental."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1610,6 +2050,10 @@
       "classIdentifier": "wizard",
       "description": {
         "value": "Especialista em magia protetora, escudos e eliminação de feitiços inimigos."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1623,6 +2067,10 @@
       "classIdentifier": "wizard",
       "description": {
         "value": "Especialista em discernir o futuro, revelando segredos e manipulando rolagens."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1636,6 +2084,10 @@
       "classIdentifier": "wizard",
       "description": {
         "value": "Mestre na criação de efeitos mágicos destrutivos e proteção de aliados em área."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   },
@@ -1649,6 +2101,10 @@
       "classIdentifier": "wizard",
       "description": {
         "value": "Especialista na fabricação de enganos perceptivos e distorção da realidade."
+      },
+      "source": {
+        "custom": "PHB 2024",
+        "rules": "2024"
       }
     }
   }

@@ -2,9 +2,9 @@
   "id": "Jurumbreula",
   "title": "Jurumbreula",
   "description": "Módulo com classes, subclasses e feitiços integrados do PHB 2024.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "manifest": "https://raw.githubusercontent.com/vitor1532/Jurumbleura/main/module.json",
-  "download": "https://github.com/vitor1532/Jurumbreula/releases/download/jurumbreulav12/module.zip", 
+  "download": "https://github.com/vitor1532/Jurumbreula/releases/download/jurumbreulav13/module.zip", 
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -18,27 +18,39 @@
       }
     ]
   },
-  "packs": [
+"packs": [
     {
       "name": "classes-55e",
       "label": "Classes (5.5e)",
       "path": "packs/classes-55e",
       "type": "Item",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "subclasses-55e",
       "label": "Subclasses (5.5e)",
       "path": "packs/subclasses-55e",
       "type": "Item",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "spells-55e",
       "label": "Magias (5.5e)",
       "path": "packs/spells-55e",
       "type": "Item",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "esmodules": [

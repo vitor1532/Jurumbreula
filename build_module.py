@@ -34,6 +34,11 @@ def process_spells():
                 for spell in spells:
                     item_id = sanitize_id(spell.get("_id"))
                     spell["_id"] = item_id
+
+                    spell.setdefault("system", {})["source"] = {
+                        "custom": "PHB 2024",
+                        "rules": "2024"
+                    }
                     
                     # Nome padronizado sem (2024) para busca
                     clean_name = re.sub(r"\s*\(2024\)", "", spell["name"]).strip().lower()
@@ -64,6 +69,11 @@ def build_full_module(spell_map):
         sub_id = sanitize_id(sub.get("_id"))
         sub["_id"] = sub_id
         sub_uuid = f"Compendium.{SUBCLASSES_PACK}.Item.{sub_id}"
+
+        sub.setdefault("system", {})["source"] = {
+            "custom": "PHB 2024",
+            "rules": "2024"
+        }
         
         class_target = sub.get("system", {}).get("classIdentifier")
         if class_target:
@@ -89,6 +99,12 @@ def build_full_module(spell_map):
     for cls in classes:
         cls_id = sanitize_id(cls.get("_id"))
         cls["_id"] = cls_id
+
+        cls.setdefault("system", {})["source"] = {
+                    "custom": "PHB 2024",
+                    "rules": "2024"
+                }
+
         class_identifier = cls.get("system", {}).get("identifier")
 
         advancements = cls.get("system", {}).get("advancement", [])
